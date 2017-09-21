@@ -1,0 +1,92 @@
+锘縎ettings:
+  Asynchronous:
+    Enable: false
+    Thread: 3
+  DamageSection:
+    Bottom: 1.0
+  HealthSection:
+    Enable: true
+    Default: 20
+    Minimum: 1
+  SpeedSection:
+    Enable: true
+    Default: 0.2
+  AttributeSection:
+    EntityCheck: true
+  ConditionSection:
+    PickupOwnder: true
+  SoundSection:
+    EntityKilled: 'BLOCK_ANVIL_LAND-1-1'
+  SpellSection:
+    DisableAttack: 'Spell Wand'
+    LackSound: 'ENTITY_VILLAGER_NO'
+    LackTitle: '§4Mana Empty!!'
+    Default: 10
+    RegenPerSeconds: 1
+    RegenTick: 40
+    ManaBarSettings:
+      String: 'Mana: [ %bar% ] %mana%/%max%'
+      Size: 20
+      1: '§b|'
+      0: '§8|'
+  IdentifieSection: 
+    TitleData:
+      TitleOff: 'Item Identifier'
+      TitleOn: 'Item Identifier (Working...)'
+    ItemData:
+      ButtenOn:
+        ==: org.bukkit.inventory.ItemStack
+        type: STAINED_GLASS_PANE
+        damage: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aIdentifie
+          lore:
+          - ''
+          - '§7Click to identify items'
+      ButtenOff:
+        ==: org.bukkit.inventory.ItemStack
+        type: STAINED_GLASS_PANE
+        damage: 14
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Identifie
+          lore:
+          - ''
+          - '§7Click on unidentified items'
+          - '§7in your inventory'
+  DisableWorlds:
+  - world_the_end
+  DebugMode: false
+  ItemBackup: false
+
+DamageTitleHoloDisplay:
+  Enable: true
+  StayTicks: 40
+  HoloSpecies:
+    default: '§4-%d% §c❤'
+
+AttributeUpdateEnableList:
+  ItemHeld: true
+  SwapHand: true
+  ItemDamage: true
+  LevelChange: true
+  HealthChange: true
+  InventoryClose: true
+  FoodLevelChange: true
+  
+AttributeItemType:
+  Enable: true
+  UseRPGInv: false
+  CheckLine: 1
+  Main: 'Mainhand'
+  Type:
+    36: 'Boots'
+    37: 'Legs'
+    38: 'Chest'
+    39: 'Helmet'
+    40: 'Offhand'
+  RPGInventory:
+    helmet: 'Helmet'

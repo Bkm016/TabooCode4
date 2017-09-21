@@ -1,0 +1,43 @@
+Messages:
+  Cooldown: '§c璇风瓑寰呬竴娈垫椂闂村悗鍦ㄨ繖涔堝仛'
+
+DisplaySection:
+  armorHelmet:
+  - LEATHER_HELMET
+  - CHAINMAIL_HELMET
+  - IRON_HELMET
+  - GOLD_HELMET
+  - DIAMOND_HELMET
+  armorChestplate:
+  - LEATHER_CHESTPLATE
+  - CHAINMAIL_CHESTPLATE
+  - IRON_CHESTPLATE
+  - GOLD_CHESTPLATE
+  - DIAMOND_CHESTPLATE
+  armorLeggings:
+  - LEATHER_LEGGINGS
+  - CHAINMAIL_LEGGINGS
+  - IRON_LEGGINGS
+  - GOLD_LEGGINGS
+  - DIAMOND_LEGGINGS
+  armorBoots:
+  - LEATHER_BOOTS
+  - CHAINMAIL_BOOTS
+  - IRON_BOOTS
+  - GOLD_BOOTS
+  - DIAMOND_BOOTS
+  Sword:
+  - WOOD_SWORD
+  - STONE_SWORD
+  - IRON_SWORD
+  - GOLD_SWORD
+  - DIAMOND_SWORD
+  
+IdentifieSection:
+  example:
+    display: Sword
+    sound: 'UI_BUTTON_CLICK-1-1'
+    name: '§1§2§3§bExample Tool'
+    item:
+    - '1 test2'
+    - '10 test'

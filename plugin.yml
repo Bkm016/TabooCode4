@@ -1,0 +1,8 @@
+name: TabooCode4
+
+description: Taboo of magic in the hands of adventurers keep of shine
+
+authors: [坏黑]
+website: http://www.15imc.com/index.html
+
+soft-depend: [PlaceholderAPI, HolographicDisplays]
