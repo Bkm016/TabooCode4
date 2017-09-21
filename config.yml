@@ -18,6 +18,7 @@
   SoundSection:
     EntityKilled: 'BLOCK_ANVIL_LAND-1-1'
   SpellSection:
+    Title: true
     DisableAttack: 'Spell Wand'
     LackSound: 'ENTITY_VILLAGER_NO'
     LackTitle: '§4Mana Empty!!'
