@@ -506,7 +506,7 @@ public class TabooCode4 extends JavaPlugin implements Listener
 	}
 	
 	//TODO PLUGIN ENABLE
-	public void onEnable() { 
+	public void on_Enable() { 
 		new Metrics(this);
 		
 		loadConfig(); loadDefault(); loadRegisters(); loadCommands();
